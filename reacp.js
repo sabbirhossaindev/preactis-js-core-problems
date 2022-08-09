@@ -13,7 +13,6 @@ function inchToFeet(inches) {
    const feet = inches / 12;
    return feet;
 }
-// dadaFeets
 const dadaInche = 144;
 const dadaFeets = inchToFeet(dadaInche);
 console.log(dadaFeets);
@@ -110,7 +109,7 @@ console.log(results);
 var num1 = 10;
 var num2 = 20;
 var results = num1 % num2;
-console.log(results);
+console.log(results); // done
 
 // ৪. তুমি কি দুইটা ভেরিয়েবল এরমধ্যে তুলনা করতে পারো। কম্পারিজন করতে পারো। যে দুইটা ভেরিয়েবল এর মধ্যে প্রথমটা সেকেন্ডটা এর চাইতে ছোট, বড়, অসমান, সমান , ছোট বা সমান, বড় বা সমান। এইগুলা চেক করতে পারো। অর্থাৎ <, >, ==, !=, <=, >= চিহ্নগুলা ব্যবহার করতে পারো। তাহলে দুইটা সংখ্যা টাইপের ভেরিয়েবল ডিক্লেয়ার করে তাদেরকে এই ছয়ভাবে তুলনা করে কোড লিখে ফেলো।
 
@@ -143,7 +142,7 @@ console.log('my output of geterden or equal: ', resul); // true
 let c = 10
 let d = 20;
 let rst = d >= c;
-console.log('my output of leasden or equal: ', rst); // true
+console.log('my output of leasden or equal: ', rst); // true done
 
 
 // ৫. তোমার যদি দুইটা শর্ত পূরণ করতে বলে। এবং দুইটা শর্তের মধ্যে দুইটাই পূরণ করতে হবে। তাহলে তুমি কি সেটা চেক করতে পারবে? একইভাবে যদি বলে তুমি দুইটা শর্তের যেকোন একটা পূরণ করতে পারবে। অর্থাৎ তুমি && এবং || এর ব্যবহার করতে পারো কিনা। যদি পারো তাহলে নিজে নিজে এই রকমের কোড লিখে ফেলো।
@@ -167,12 +166,14 @@ if (paturn === 0808) {
 else {
    console.log('Please try again!');
 }
+
 // ৭. তোমাকে যদি বলে একটা while লুপ দিয়ে ৭ থেকে ১৯ পর্যন্ত যতগুলা বিজোড় সংখ্যা আছে সেগুলা দেখাতে। তুমি কি সেটা দেখাতে পারবে? পারলে সেই কোড লিখে ফেলো।
 
-var oddNumber = 7;
-for (let i = 7; i <= 19; i += 2){
-   console.log('My odd number: ',i)
-}
+var i = 7;
+for (var i = 7; i <= 19; i+=2) {
+    console.log('My odd number of 7 to 19: ',i);
+}// done
+
 
 // ৮. তোমাকে যদি বলা হয় তুমি একটা array ডিক্লেয়ার করবে। এবং সেটার মধ্যে কয়টা উপাদান আছে সেটা বের করবে হবে। সেই array এর এর মধ্যে চতুর্থ পজিশন এর উপাদান চেইঞ্জ করতে হবে। array এর মধ্যে দুইটা উপাদান যোগ করতে হবে। এবং একটা উপাদান কে বের করে দিতে হবে। তুমি কি সেটা করতে পারবে।
 
@@ -183,9 +184,14 @@ console.log(myArray);
 // let sum = myArray.reduce((partialSum, element) => partialSum + element,);
 let element = myArray.pop(0);
 console.log(element); // use of pop
-console.log(myArray);
+console.log(myArray); // done
+
 // ৯. তুমি কি একটা ফর লুপ দিয়ে কোন একটা array এর সবগুলা উপাদানকে দেখাতে পারবে। সেটা রেগুলার for লুপ হোক বা for of হোক। হলে সেই স্টাইলে একটা কোড লিখে ফেলো।
 
+let totalArray = [40, 50, 60, 70, 80, 90, 30, 20, 10];
+for (let totalArray = 0; totalArray < i.length; totalArray++) {
+   console.log('Our total array defind of for loop: ' );
+}
 
 // ১০. তোমাকে যদি বলা হয়। একটা array এর মধ্যে ৮০ এর চাইতে বড় সংখ্যা থাকলে সেগুলাকে console log করে দেখাতে সেটা কি তুমি পারবে? তাহলে তুমি সেই কোড করে ফেলো
 
@@ -196,6 +202,19 @@ var element2 = 10;
 var element3 = 10;
 var element4 = 10;
 var total = element2 * element3 * element4;
-console.log(total);
+console.log('Three element sum of number: ', total); // done
 
-// ১২. একটা অবজেক্ট ডিক্লেয়ার করবে। সেটাতে তিনটা প্রপার্টি থাকবে। এবং কোন একটা প্রোপার্টি এর মান চেইঞ্জ করবা। 
+// ১২. একটা অবজেক্ট ডিক্লেয়ার করবে। সেটাতে তিনটা প্রপার্টি থাকবে। এবং কোন একটা প্রোপার্টি এর মান চেইঞ্জ করবা।
+
+let myObject = {
+   name: 'sabbir',
+   id: 477470,
+   cumpus: 'HPI',
+   diploma: true,
+   gpa: 3.86,
+   father: 'bablu',
+   mother: 'senafa',
+   brother: 'nadim',
+   sister: 'azmin',
+};
+console.log(myObject); // অবজেক্ট ডিক্লেয়ার |
