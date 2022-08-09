@@ -169,8 +169,21 @@ else {
 }
 // ৭. তোমাকে যদি বলে একটা while লুপ দিয়ে ৭ থেকে ১৯ পর্যন্ত যতগুলা বিজোড় সংখ্যা আছে সেগুলা দেখাতে। তুমি কি সেটা দেখাতে পারবে? পারলে সেই কোড লিখে ফেলো।
 
+var oddNumber = 7;
+for (let i = 7; i <= 19; i += 2){
+   console.log('My odd number: ',i)
+}
+
 // ৮. তোমাকে যদি বলা হয় তুমি একটা array ডিক্লেয়ার করবে। এবং সেটার মধ্যে কয়টা উপাদান আছে সেটা বের করবে হবে। সেই array এর এর মধ্যে চতুর্থ পজিশন এর উপাদান চেইঞ্জ করতে হবে। array এর মধ্যে দুইটা উপাদান যোগ করতে হবে। এবং একটা উপাদান কে বের করে দিতে হবে। তুমি কি সেটা করতে পারবে।
 
+let myArray = [40, 50, 60, 70, 80, 90, 30, 20, 10];
+console.log(myArray.length); // array ta koyta element asa ta janta.
+myArray[4] = 99; // position set korta.
+console.log(myArray);
+// let sum = myArray.reduce((partialSum, element) => partialSum + element,);
+let element = myArray.pop(0);
+console.log(element); // use of pop
+console.log(myArray);
 // ৯. তুমি কি একটা ফর লুপ দিয়ে কোন একটা array এর সবগুলা উপাদানকে দেখাতে পারবে। সেটা রেগুলার for লুপ হোক বা for of হোক। হলে সেই স্টাইলে একটা কোড লিখে ফেলো।
 
 
@@ -178,5 +191,11 @@ else {
 
 
 // ১১. তিনটা সংখ্যার গুনফল বের করে ফাইনাল রেজাল্ট আউটপুট হিসেবে রিটার্ন করতে হবে। তুমি কি সেই কোড লিখতে পারবে। যদি পারো তাহলে সেই কোড লিখে ফেলো।
+
+var element2 = 10;
+var element3 = 10;
+var element4 = 10;
+var total = element2 * element3 * element4;
+console.log(total);
 
 // ১২. একটা অবজেক্ট ডিক্লেয়ার করবে। সেটাতে তিনটা প্রপার্টি থাকবে। এবং কোন একটা প্রোপার্টি এর মান চেইঞ্জ করবা। 
