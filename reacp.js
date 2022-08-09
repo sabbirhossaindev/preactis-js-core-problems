@@ -28,6 +28,13 @@ const myCentimeter = 5;
 const result = centimeterToMeter(myCentimeter);
 console.log('my meter of 5: ', result);
 
+
+/* km to mile convert:
+km = miles*1.60934;
+mile =km/1.60934;
+ */
+
+
 // centimeterToMeter
 
 // 3. count paper
@@ -106,6 +113,38 @@ var results = num1 % num2;
 console.log(results);
 
 // ৪. তুমি কি দুইটা ভেরিয়েবল এরমধ্যে তুলনা করতে পারো। কম্পারিজন করতে পারো। যে দুইটা ভেরিয়েবল এর মধ্যে প্রথমটা সেকেন্ডটা এর চাইতে ছোট, বড়, অসমান, সমান , ছোট বা সমান, বড় বা সমান। এইগুলা চেক করতে পারো। অর্থাৎ <, >, ==, !=, <=, >= চিহ্নগুলা ব্যবহার করতে পারো। তাহলে দুইটা সংখ্যা টাইপের ভেরিয়েবল ডিক্লেয়ার করে তাদেরকে এই ছয়ভাবে তুলনা করে কোড লিখে ফেলো।
+
+let number1 = 10
+let number2 = 20;
+let output = number1 < number2;
+console.log('my output of geterden: ', output); // true
+
+let number3 = 10
+let number4 = 20;
+let otp = number3 > number4;
+console.log('my output of leasden: ', otp); // false
+
+let number6 = 10
+let number7 = 10;
+let rslt = number6 == number7;
+console.log('my output of duble equal: ', rslt); // true
+
+let a = 10
+let b = 10;
+console.log(a == b); // true
+
+// !==
+
+let e = 10
+let f = 20;
+let resul = e <= f;
+console.log('my output of geterden or equal: ', resul); // true
+ 
+let c = 10
+let d = 20;
+let rst = d >= c;
+console.log('my output of leasden or equal: ', rst); // true
+
 
 // ৫. তোমার যদি দুইটা শর্ত পূরণ করতে বলে। এবং দুইটা শর্তের মধ্যে দুইটাই পূরণ করতে হবে। তাহলে তুমি কি সেটা চেক করতে পারবে? একইভাবে যদি বলে তুমি দুইটা শর্তের যেকোন একটা পূরণ করতে পারবে। অর্থাৎ তুমি && এবং || এর ব্যবহার করতে পারো কিনা। যদি পারো তাহলে নিজে নিজে এই রকমের কোড লিখে ফেলো।
 
