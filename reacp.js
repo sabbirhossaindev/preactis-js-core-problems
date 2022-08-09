@@ -44,6 +44,7 @@ console.log('my meter of 5: ', result);
 // onlyPositive
 
 // my problem solve total 12 ta
+
 // ১. তোমাকে যদি বলি একটা স্ট্রিং টাইপের ভেরিয়েবল লিখো। একটা বুলিয়ান টাইপের ভেরিয়েবল লিখো বা একটা নাম্বার টাইপের ভেরিয়েবল লিখো। সেটা কি তুমি লিখতে পারবে? যদি পারো তাহলে ভিজুয়াল ষ্টুডিও কোড খুলে লিখে ফেলো।
 
 var myString = 'sabbir';
@@ -73,6 +74,36 @@ const carPrice = 30000000;
 // console.log(carPrice); // Assignment to constant variable
 
 // ৩. দুইটা ভেরিয়েবল এর মধ্যে যোগ, বিয়োগ, গুণ, ভাগ কিভাবে করতে হয় সেটা কি জানো। অর্থাৎ তুমি কি +, -, *, /, %এইগুলার ব্যবহার জানো। তাহলে নাম্বার টাইপের দুইটা ভেরিয়েবল লিখো তারপর তাদের যোগ করে সেটার মান আরেকটা ভেরিয়েবল এ রাখো। একইভাবে ওই দুইটা ভেরিয়েবল এর মধ্যে বিয়োগ, গুন, ভাগ এবং ভাগশেষ বের করো।
+
+// + explore
+var num1 = 10;
+var num2 = 20;
+var results = num1 + num2;
+console.log(results);
+
+// - explore;
+var num1 = 10;
+var num2 = 20;
+var results = num2 - num1;
+console.log(results);
+
+// * explore
+var num1 = 10;
+var num2 = 20;
+var results = num1 * num2;
+console.log(results);
+
+// / explore
+var num1 = 10;
+var num2 = 20;
+var results = num1 / num2;
+console.log(results);
+
+// % explore
+var num1 = 10;
+var num2 = 20;
+var results = num1 % num2;
+console.log(results);
 
 // ৪. তুমি কি দুইটা ভেরিয়েবল এরমধ্যে তুলনা করতে পারো। কম্পারিজন করতে পারো। যে দুইটা ভেরিয়েবল এর মধ্যে প্রথমটা সেকেন্ডটা এর চাইতে ছোট, বড়, অসমান, সমান , ছোট বা সমান, বড় বা সমান। এইগুলা চেক করতে পারো। অর্থাৎ <, >, ==, !=, <=, >= চিহ্নগুলা ব্যবহার করতে পারো। তাহলে দুইটা সংখ্যা টাইপের ভেরিয়েবল ডিক্লেয়ার করে তাদেরকে এই ছয়ভাবে তুলনা করে কোড লিখে ফেলো।
 
