@@ -189,10 +189,10 @@ console.log(myArray); // done
 
 // ৯. তুমি কি একটা ফর লুপ দিয়ে কোন একটা array এর সবগুলা উপাদানকে দেখাতে পারবে। সেটা রেগুলার for লুপ হোক বা for of হোক। হলে সেই স্টাইলে একটা কোড লিখে ফেলো।
 
-let totalArray = [40, 50, 60, 70, 80, 90, 30, 20, 10];
-for (let totalArray = 0; totalArray < totalArray.length; totalArray++) {
-   console.log('Our total array defind of for loop: ' );
-}
+// let totalArray = [40, 50, 60, 70, 80, 90, 30, 20, 10];
+// for (let i = 0; i < i.length; i++) {
+//    console.log('Our total array defind of for loop: ', totalArray[i]);
+// }
 
 // ১০. তোমাকে যদি বলা হয়। একটা array এর মধ্যে ৮০ এর চাইতে বড় সংখ্যা থাকলে সেগুলাকে console log করে দেখাতে সেটা কি তুমি পারবে? তাহলে তুমি সেই কোড করে ফেলো
 
@@ -232,4 +232,4 @@ var propertyValues = Object.values(myObject);
 
 // name প্রোপার্টি এর মান চেইঞ্জ |
 myObject.name = 'Sabbir Hosain';
-console.log(myObject);
+console.log(myObject); // done
