@@ -4,7 +4,7 @@ function feetToInch(feetes) {
    return inch;
 }
 const feet = 12;
-const feets = feetToInch(mamaFeet);
+const feets = feetToInch(feet);
 console.log(feets);
 
 
@@ -18,7 +18,16 @@ const dadaInche = 144;
 const dadaFeets = inchToFeet(dadaInche);
 console.log(dadaFeets);
 
-// 2. centimeter to meter
+// 2. centimeter to meter convert use to function.
+function centimeterToMeter(centimeter) {
+   const meter = 100 * centimeter;
+   return meter;
+}
+ // centimeter
+const myCentimeter = 5;
+const result = centimeterToMeter(myCentimeter);
+console.log('my meter of 5: ', result);
+
 // centimeterToMeter
 
 // 3. count paper
