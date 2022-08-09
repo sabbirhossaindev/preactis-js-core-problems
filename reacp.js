@@ -132,7 +132,8 @@ let a = 10
 let b = 10;
 console.log(a == b); // true
 
-// !==
+console.log(6 !== 6); // !==
+
 
 let e = 10
 let f = 20;
@@ -189,7 +190,7 @@ console.log(myArray); // done
 // ৯. তুমি কি একটা ফর লুপ দিয়ে কোন একটা array এর সবগুলা উপাদানকে দেখাতে পারবে। সেটা রেগুলার for লুপ হোক বা for of হোক। হলে সেই স্টাইলে একটা কোড লিখে ফেলো।
 
 let totalArray = [40, 50, 60, 70, 80, 90, 30, 20, 10];
-for (let totalArray = 0; totalArray < i.length; totalArray++) {
+for (let totalArray = 0; totalArray < totalArray.length; totalArray++) {
    console.log('Our total array defind of for loop: ' );
 }
 
@@ -217,4 +218,18 @@ let myObject = {
    brother: 'nadim',
    sister: 'azmin',
 };
-console.log(myObject); // অবজেক্ট ডিক্লেয়ার |
+console.log(myObject); // অবজেক্ট ডিক্লেয়ার
+
+// when you know the specific property name, use dot notation to get the property value
+var nadimExplore = myObject.brother;
+// alternative System
+// When you know the specific property name, use dot notation to get the property value
+var nadimExplore2 = myObject['brother'];
+
+// sestem 3.
+var propertyValues = Object.values(myObject);
+// console.log(propertyValues);
+
+// name প্রোপার্টি এর মান চেইঞ্জ |
+myObject.name = 'Sabbir Hosain';
+console.log(myObject);
