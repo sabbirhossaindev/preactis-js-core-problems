@@ -190,12 +190,28 @@ console.log(myArray); // done
 // ৯. তুমি কি একটা ফর লুপ দিয়ে কোন একটা array এর সবগুলা উপাদানকে দেখাতে পারবে। সেটা রেগুলার for লুপ হোক বা for of হোক। হলে সেই স্টাইলে একটা কোড লিখে ফেলো।
 
 const array = [40, 10, 10, 10, 10, 10, 10, 10, 10];
-for (let i = 0; i < i.length; i++) {
+for (let i = 0; i < array.length; i++) {
    console.log(array[i]);
 }
 
 // ১০. তোমাকে যদি বলা হয়। একটা array এর মধ্যে ৮০ এর চাইতে বড় সংখ্যা থাকলে সেগুলাকে console log করে দেখাতে সেটা কি তুমি পারবে? তাহলে তুমি সেই কোড করে ফেলো
 
+
+function getNumbers(myNumbers) {
+   const upNumber = [];
+   for (let i = 0; i < myNumbers.length; i++){
+      const index = i;
+      const element = numbers[index];
+      if (element > 80) {
+         upNumber.push(element);
+      }
+   }
+   return upNumber;
+}
+
+let numbers = [20, 80, 82, 90, 100, 20, 40, 50, 120];
+const upNumber = getNumbers(numbers);
+console.log('80 er upora number gula holo: ', upNumber);
 
 // ১১. তিনটা সংখ্যার গুনফল বের করে ফাইনাল রেজাল্ট আউটপুট হিসেবে রিটার্ন করতে হবে। তুমি কি সেই কোড লিখতে পারবে। যদি পারো তাহলে সেই কোড লিখে ফেলো।
 
